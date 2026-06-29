@@ -1,0 +1,66 @@
+name: Paper Note Audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Syntax check audit tool
+        run: python3 -m py_compile tools/paper_note_audit.py
+
+      - name: Build registry snapshot without failing on legacy notes
+        run: |
+          set +e
+          python3 tools/paper_note_audit.py --all --write-registry /tmp/papers.json > /tmp/paper-audit-all.txt
+          AUDIT_EXIT=$?
+          set -e
+          sed -n '1,80p' /tmp/paper-audit-all.txt
+          python3 - <<'PY'
+          import json
+          with open('/tmp/papers.json', encoding='utf-8') as f:
+              data = json.load(f)
+          print('Registry summary:', json.dumps(data['summary'], ensure_ascii=False))
+          assert data['schema_version'] == '0.1'
+          assert data['summary']['total'] > 0
+          PY
+          echo "Legacy audit exit code was ${AUDIT_EXIT}; this step is informational."
+
+      - name: Strict audit changed paper notes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE="origin/${{ github.base_ref }}"
+          elif [[ -n "${{ github.event.before }}" && "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]]; then
+            BASE="${{ github.event.before }}"
+          else
+            BASE="HEAD~1"
+          fi
+
+          if git rev-parse --verify "$BASE" >/dev/null 2>&1; then
+            mapfile -t changed < <(git diff --name-only "$BASE"...HEAD -- 'Papers/*.md')
+          else
+            mapfile -t changed < <(git diff --name-only HEAD~1..HEAD -- 'Papers/*.md')
+          fi
+
+          if [[ ${#changed[@]} -eq 0 ]]; then
+            echo "No changed paper notes to audit strictly."
+            exit 0
+          fi
+
+          printf 'Strict auditing changed notes:\n'
+          printf ' - %s\n' "${changed[@]}"
+          python3 tools/paper_note_audit.py --strict "${changed[@]}"
