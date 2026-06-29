@@ -171,14 +171,18 @@ Glob DomainMaps/*<TermCamelCase>*.md   # 若目录存在
 
 ### Step 5：机器校验 + registry 更新
 
-采用 ResearchInfra-style file-first validation：写完笔记和 wikilink 后，先跑新笔记严格校验，再刷新可重建 registry。
+采用 ResearchInfra / PaperQA2-style evidence + file-first validation：写完笔记和 wikilink 后，先创建并填写 evidence ledger，再跑新笔记严格校验，最后刷新可重建 registry。
 
 ```bash
+python3 tools/evidence_ledger.py init Papers/{笔记文件名}.md --force
+# 手动补全 Workbench/evidence/{ShortTitle}.json 的 claims：每个关键技术/result claim 至少一个 quote/figure/table evidence
+python3 tools/evidence_ledger.py validate Workbench/evidence/{ShortTitle}.json --require-claims
 python3 tools/paper_note_audit.py Papers/{笔记文件名}.md --strict
 python3 tools/paper_note_audit.py --all --write-registry Workbench/registry/papers.json
+python3 tools/mindflow_doctor.py
 ```
 
-若严格校验失败：修复笔记后重跑，不要跳过。若 `--all` 对 legacy 笔记产生 warnings/errors，只要新笔记严格校验通过即可继续；legacy 问题另行处理。规则说明见 `references/paper-note-validation.md`。
+若 evidence 或严格校验失败：修复笔记/ledger 后重跑，不要跳过。若 `--all` 对 legacy 笔记产生 warnings/errors，只要新笔记严格校验和 evidence ledger 通过即可继续；legacy 问题另行处理。规则说明见 `references/paper-note-validation.md` 与 `references/evidence-ledger.md`。
 
 ### Step 6：日志记录
 
@@ -227,8 +231,12 @@ python3 tools/paper_note_audit.py --all --write-registry Workbench/registry/pape
 - [ ] **未污染更长术语**：短 term（如 `π0`）的注入没有破坏更长术语的 alias（如 `[[2504-Pi05|π0.5]]` 里的 `π0` 没有被再次包装）
 
 ### Step 5 (Machine validation) 自检
+- [ ] `python3 tools/evidence_ledger.py init Papers/{笔记文件名}.md --force` 已生成/刷新 `Workbench/evidence/{ShortTitle}.json`
+- [ ] `Workbench/evidence/{ShortTitle}.json` 已补全关键 claims，且每个 claim 至少一个 quote/figure/table evidence
+- [ ] `python3 tools/evidence_ledger.py validate Workbench/evidence/{ShortTitle}.json --require-claims` 已通过
 - [ ] `python3 tools/paper_note_audit.py Papers/{笔记文件名}.md --strict` 已通过
 - [ ] `python3 tools/paper_note_audit.py --all --write-registry Workbench/registry/papers.json` 已运行；legacy 问题如有已记录，不阻塞新笔记
+- [ ] `python3 tools/mindflow_doctor.py` 已运行；新增 fail 必须处理，legacy warn 可记录后继续
 - [ ] `Workbench/registry/papers.json` 已刷新
 
 ### Step 6 (Log) 自检

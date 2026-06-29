@@ -30,30 +30,12 @@ This note records external systems inspected while upgrading MindFlow. The goal 
 - `references/paper-note-validation.md`: validation policy and commands.
 - `skills/1-literature/paper-digest/SKILL.md`: paper-digest now requires strict validation for new notes and registry refresh.
 - `.github/workflows/paper-audit.yml`: CI checks the validator and enforces strict audit on changed paper notes.
+- `tools/evidence_ledger.py` + `references/evidence-ledger.md`: claim-to-evidence ledgers for new/updated paper notes.
+- `tools/mindflow_doctor.py`: local doctor checks for registry, required paths, audit tool availability, and owner-identity leftovers.
 
 ## Next high-value upgrades
 
-### 1. Evidence ledger for new digests
-
-Create `Workbench/evidence/<ShortTitle>.json` during paper digest:
-
-```json
-{
-  "paper": "Papers/2605-MolmoAct2.md",
-  "sources": [{"kind": "paper", "url": "...", "local_path": "/tmp/.../paper.md"}],
-  "claims": [
-    {
-      "claim": "Per-layer KV conditioning improves LIBERO by 1.9 points.",
-      "note_section": "## 6.5 关键消融",
-      "evidence": [{"source": "paper", "section": "Ablations", "quote": "..."}]
-    }
-  ]
-}
-```
-
-This is the PaperQA2/ResearchInfra pattern: every important claim should have a short supporting span.
-
-### 2. Survey packet before synthesis
+### 1. Survey packet before synthesis
 
 For `literature-survey`, create `Workbench/surveys/<Topic>/packet.json`:
 
@@ -67,19 +49,7 @@ For `literature-survey`, create `Workbench/surveys/<Topic>/packet.json`:
 
 This borrows GPT Researcher/Open Deep Research's planner/collector/publisher split without adopting their runtime.
 
-### 3. Doctor command
-
-Add `tools/mindflow_doctor.py`:
-
-- checks required folders/files exist,
-- validates paper registry freshness,
-- samples broken local media links,
-- reports legacy notes with hard errors,
-- prints exact fix commands.
-
-This borrows DeerFlow's `make doctor` practice.
-
-### 4. Reviewer pass for promoted research ideas
+### 2. Reviewer pass for promoted research ideas
 
 Before moving an idea/result to a high-confidence state, run a reviewer checklist inspired by AI Scientist/Open Deep Research:
 

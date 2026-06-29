@@ -18,8 +18,21 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Syntax check audit tool
-        run: python3 -m py_compile tools/paper_note_audit.py
+      - name: Syntax check Python tools
+        run: |
+          python3 -m py_compile tools/paper_note_audit.py tools/evidence_ledger.py tools/mindflow_doctor.py
+
+      - name: Run tool unit tests
+        run: python3 -m unittest tests.test_research_tools -v
+
+      - name: Doctor smoke
+        run: |
+          set +e
+          python3 tools/mindflow_doctor.py > /tmp/mindflow-doctor.txt
+          DOCTOR_EXIT=$?
+          set -e
+          sed -n '1,120p' /tmp/mindflow-doctor.txt
+          echo "Doctor exit code was ${DOCTOR_EXIT}; legacy owner warnings/failures are handled outside CI."
 
       - name: Build registry snapshot without failing on legacy notes
         run: |
