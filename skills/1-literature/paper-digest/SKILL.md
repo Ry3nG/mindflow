@@ -169,7 +169,18 @@ Glob DomainMaps/*<TermCamelCase>*.md   # 若目录存在
 
 ---
 
-### Step 5：日志记录
+### Step 5：机器校验 + registry 更新
+
+采用 ResearchInfra-style file-first validation：写完笔记和 wikilink 后，先跑新笔记严格校验，再刷新可重建 registry。
+
+```bash
+python3 tools/paper_note_audit.py Papers/{笔记文件名}.md --strict
+python3 tools/paper_note_audit.py --all --write-registry Workbench/registry/papers.json
+```
+
+若严格校验失败：修复笔记后重跑，不要跳过。若 `--all` 对 legacy 笔记产生 warnings/errors，只要新笔记严格校验通过即可继续；legacy 问题另行处理。规则说明见 `references/paper-note-validation.md`。
+
+### Step 6：日志记录
 
 用 Edit（或 Write 若文件不存在）将以下格式的 log entry 追加到 `Workbench/logs/YYYY-MM-DD.md`（日期为今天）：
 
@@ -215,5 +226,10 @@ Glob DomainMaps/*<TermCamelCase>*.md   # 若目录存在
 - [ ] **未污染路径**：wikilink 没有出现在 `Papers/xxxx-xxx.md` 这类文件路径字符串的中间（即路径里的 term 没有被错误包装成 `Papers/2405-[[2405-Octo|Octo]].md`）
 - [ ] **未污染更长术语**：短 term（如 `π0`）的注入没有破坏更长术语的 alias（如 `[[2504-Pi05|π0.5]]` 里的 `π0` 没有被再次包装）
 
-### Step 5 (Log) 自检
+### Step 5 (Machine validation) 自检
+- [ ] `python3 tools/paper_note_audit.py Papers/{笔记文件名}.md --strict` 已通过
+- [ ] `python3 tools/paper_note_audit.py --all --write-registry Workbench/registry/papers.json` 已运行；legacy 问题如有已记录，不阻塞新笔记
+- [ ] `Workbench/registry/papers.json` 已刷新
+
+### Step 6 (Log) 自检
 - [ ] 日志已追加到 `Workbench/logs/YYYY-MM-DD.md`

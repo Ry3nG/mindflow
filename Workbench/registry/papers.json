@@ -1,0 +1,4001 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-06-29T14:50:44.636786+00:00",
+  "generator": "tools/paper_note_audit.py",
+  "papers": [
+    {
+      "path": "Papers/1711-R2R.md",
+      "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "date_publish": "2018-04-05",
+      "venue": "CVPR 2018 (Spotlight Oral)",
+      "tags": [
+        "VLN",
+        "navigation",
+        "instruction-following"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/1711.07280",
+      "website": "https://bringmeaspoon.org/",
+      "github": "https://github.com/peteanderson80/Matterport3DSimulator",
+      "date_added": "2026-04-28",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2004-VLNCE.md",
+      "title": "Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments",
+      "date_publish": "2020-04-06",
+      "venue": "ECCV 2020",
+      "tags": [
+        "VLN",
+        "navigation",
+        "instruction-following"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2004.02857",
+      "website": "https://jacobkrantz.github.io/vlnce/",
+      "github": "https://github.com/jacobkrantz/VLN-CE",
+      "date_added": "2026-04-28",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2010-RxR.md",
+      "title": "Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding",
+      "date_publish": "2020-10-15",
+      "venue": "EMNLP 2020",
+      "tags": [
+        "VLN",
+        "navigation",
+        "instruction-following"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2010.07954",
+      "website": "https://research.google/blog/rxr-a-multilingual-benchmark-for-navigation-instruction-following/",
+      "github": "https://github.com/google-research-datasets/RxR",
+      "date_added": "2026-04-28",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2202-DUET.md",
+      "title": "Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation",
+      "date_publish": "2022-02-23",
+      "venue": "CVPR 2022 (Oral)",
+      "tags": [
+        "VLN",
+        "navigation",
+        "spatial-memory"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2202.11742",
+      "website": "https://cshizhe.github.io/projects/vln_duet.html",
+      "github": "https://github.com/cshizhe/VLN-DUET",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2204-SayCan.md",
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "date_publish": "2022-04-04",
+      "venue": "CoRL 2022",
+      "tags": [
+        "task-planning",
+        "instruction-following",
+        "mobile-manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2204.01691",
+      "website": "https://say-can.github.io/",
+      "github": "https://github.com/google-research/google-research/tree/master/saycan",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2210-VLMaps.md",
+      "title": "Visual Language Maps for Robot Navigation",
+      "date_publish": "2022-10-11",
+      "venue": "ICRA 2023",
+      "tags": [
+        "semantic-map",
+        "navigation",
+        "scene-understanding"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2210.05714",
+      "website": "https://vlmaps.github.io/",
+      "github": "https://github.com/vlmaps/vlmaps",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2212-RT1.md",
+      "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+      "date_publish": "2022-12-13",
+      "venue": "arXiv / RSS 2023",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "imitation-learning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2212.06817",
+      "website": "https://robotics-transformer1.github.io/",
+      "github": "https://github.com/google-research/robotics_transformer",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2303-DiffusionPolicy.md",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "date_publish": "2023-03-07",
+      "venue": "RSS 2023 (extended IJRR version)",
+      "tags": [
+        "diffusion-policy",
+        "imitation-learning",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2303.04137",
+      "website": "https://diffusion-policy.cs.columbia.edu/",
+      "github": "https://github.com/real-stanford/diffusion_policy",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2303-PaLME.md",
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "date_publish": "2023-03",
+      "venue": "ICML 2023",
+      "tags": [
+        "VLM",
+        "embodied-reasoning",
+        "task-planning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2303.03378",
+      "website": "https://palm-e.github.io/",
+      "github": [],
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2304-ETPNav.md",
+      "title": "ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments",
+      "date_publish": "2023-04-06",
+      "venue": "TPAMI 2024",
+      "tags": [
+        "VLN",
+        "navigation",
+        "spatial-memory"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2304.03047",
+      "website": [],
+      "github": "https://github.com/MarSaKi/ETPNav",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2305-NavGPT.md",
+      "title": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
+      "date_publish": "2023-05-26",
+      "venue": "AAAI 2024",
+      "tags": [
+        "VLN",
+        "LLM",
+        "navigation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2305.16986",
+      "website": [],
+      "github": "https://github.com/GengzeZhou/NavGPT",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2305-RAP.md",
+      "title": "Reasoning with Language Model is Planning with World Model",
+      "date_publish": "2023-05-24",
+      "venue": "EMNLP 2023",
+      "tags": [
+        "LLM",
+        "task-planning",
+        "world-model"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2305.14992",
+      "website": [],
+      "github": "https://github.com/maitrix-org/llm-reasoners",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2305-TidyBot.md",
+      "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+      "date_publish": "2023-05-09",
+      "venue": "Autonomous Robots / IROS 2023",
+      "tags": [
+        "LLM",
+        "mobile-manipulation",
+        "scene-understanding",
+        "instruction-following"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2305.05658",
+      "website": "https://tidybot.cs.princeton.edu/",
+      "github": "https://github.com/jimmyyhwu/tidybot",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2306-HomeRobot.md",
+      "title": "HomeRobot: Open-Vocabulary Mobile Manipulation",
+      "date_publish": "2023-06",
+      "venue": "CoRL 2023",
+      "tags": [
+        "mobile-manipulation",
+        "navigation",
+        "manipulation",
+        "scene-understanding"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2306.11565",
+      "website": "https://ovmm.github.io/",
+      "github": "https://github.com/facebookresearch/home-robot",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2307-RT2.md",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "date_publish": "2023-07",
+      "venue": "CoRL 2023",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2307.15818",
+      "website": "https://robotics-transformer2.github.io",
+      "github": [],
+      "date_added": "2026-03-24",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2307-VoxPoser.md",
+      "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+      "date_publish": "2023-07-12",
+      "venue": "CoRL 2023",
+      "tags": [
+        "manipulation",
+        "task-planning",
+        "scene-understanding"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2307.05973",
+      "website": "https://voxposer.github.io/",
+      "github": "https://github.com/huangwl18/VoxPoser",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2307-WebArena.md",
+      "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+      "date_publish": "2023-07-25",
+      "venue": "ICLR 2024",
+      "tags": [
+        "web-agent",
+        "LLM",
+        "computer-use"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2307.13854",
+      "website": "https://webarena.dev/",
+      "github": "https://github.com/web-arena-x/webarena",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2309-ConceptGraphs.md",
+      "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+      "date_publish": "2023-09",
+      "venue": "ICRA 2024",
+      "tags": [
+        "scene-understanding",
+        "task-planning",
+        "SLAM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2309.16650",
+      "website": "https://concept-graphs.github.io/",
+      "github": "https://github.com/concept-graphs/concept-graphs",
+      "date_added": "2026-03-24",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2311-LEO.md",
+      "title": "An Embodied Generalist Agent in 3D World",
+      "date_publish": "2023-11",
+      "venue": "ICML 2024",
+      "tags": [
+        "VLA",
+        "scene-understanding",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2311.12871",
+      "website": "https://embodied-generalist.github.io/",
+      "github": "https://github.com/embodied-generalist/embodied-generalist",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2312-CogAgent.md",
+      "title": "CogAgent: A Visual Language Model for GUI Agents",
+      "date_publish": "2023-12-14",
+      "venue": "CVPR 2024",
+      "tags": [
+        "gui-agent",
+        "VLM",
+        "computer-use"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2312.08914",
+      "website": [],
+      "github": "https://github.com/THUDM/CogVLM",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2312-SplaTAM.md",
+      "title": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM",
+      "date_publish": "2023-12-04",
+      "venue": "CVPR 2024",
+      "tags": [
+        "SLAM",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2312.02126",
+      "website": "https://spla-tam.github.io/",
+      "github": "https://github.com/spla-tam/SplaTAM",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2401-MobileALOHA.md",
+      "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation",
+      "date_publish": "2024-01-04",
+      "venue": "CoRL 2024",
+      "tags": [
+        "mobile-manipulation",
+        "imitation-learning",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2401.02117",
+      "website": "https://mobile-aloha.github.io/",
+      "github": "https://github.com/MarkFzp/mobile-aloha",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2401-OKRobot.md",
+      "title": "OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
+      "date_publish": "2024-01-22",
+      "venue": "arXiv",
+      "tags": [
+        "mobile-manipulation",
+        "scene-understanding",
+        "manipulation"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2401.12202",
+      "website": "https://ok-robot.github.io/",
+      "github": "https://github.com/ok-robot/ok-robot",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2401-SeeClick.md",
+      "title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+      "date_publish": "2024-01-19",
+      "venue": "ACL 2024",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2401.10935",
+      "website": [],
+      "github": "https://github.com/njucckevin/SeeClick",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2401-SpatialVLM.md",
+      "title": "SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities",
+      "date_publish": "2024-01-22",
+      "venue": "CVPR 2024",
+      "tags": [
+        "spatial-reasoning",
+        "VLM",
+        "embodied-reasoning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2401.12168",
+      "website": "https://spatial-vlm.github.io/",
+      "github": "https://github.com/remyxai/VQASynth",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2402-Genie.md",
+      "title": "Genie: Generative Interactive Environments",
+      "date_publish": "2024-02-23",
+      "venue": "ICML 2024",
+      "tags": [
+        "world-model",
+        "video-LLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2402.15391",
+      "website": "https://sites.google.com/view/genie-2024/",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2402-NaVid.md",
+      "title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
+      "date_publish": "2024-02-24",
+      "venue": "RSS 2024",
+      "tags": [
+        "VLN",
+        "VLM",
+        "navigation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2402.15852",
+      "website": "https://pku-epic.github.io/NaVid/",
+      "github": "https://github.com/jzhzhang/NaVid-VLN-CE",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2403-Behavior1K.md",
+      "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+      "date_publish": "2024-03",
+      "venue": "CoRL 2022 / arXiv 2024",
+      "tags": [
+        "mobile-manipulation",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2403.09227",
+      "website": "https://behavior.stanford.edu",
+      "github": "https://github.com/StanfordVL/BEHAVIOR-1K",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2403-RTH.md",
+      "title": "RT-H: Action Hierarchies Using Language",
+      "date_publish": "2024-03",
+      "venue": "RSS 2024",
+      "tags": [
+        "VLA",
+        "imitation-learning",
+        "instruction-following"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2403.01823",
+      "website": "https://rt-hierarchy.github.io/",
+      "github": [],
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2404-OSWorld.md",
+      "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "date_publish": "2024-04-11",
+      "venue": "NeurIPS 2024",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "instruction-following"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2404.07972",
+      "website": "https://os-world.github.io/",
+      "github": "https://github.com/xlang-ai/OSWorld",
+      "date_added": "2026-04-02",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2405-DIAMOND.md",
+      "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+      "date_publish": "2024-05-20",
+      "venue": "NeurIPS 2024 (Spotlight)",
+      "tags": [
+        "world-model",
+        "RL",
+        "diffusion-policy"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2405.12399",
+      "website": "https://diamond-wm.github.io/",
+      "github": "https://github.com/eloialonso/diamond",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2405-OccSora.md",
+      "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+      "date_publish": "2024-05-30",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2405.20337",
+      "website": "https://wzzheng.net/OccSora",
+      "github": "https://github.com/wzzheng/OccSora",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2405-Octo.md",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "date_publish": "2024-05-20",
+      "venue": "RSS 2024",
+      "tags": [
+        "VLA",
+        "diffusion-policy",
+        "cross-embodiment",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2405.12213",
+      "website": "https://octo-models.github.io/",
+      "github": "https://github.com/octo-models/octo",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2405-Vista.md",
+      "title": "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability",
+      "date_publish": "2024-05-27",
+      "venue": "NeurIPS 2024",
+      "tags": [
+        "world-model"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2405.17398",
+      "website": "https://opendrivelab.com/Vista/",
+      "github": "https://github.com/OpenDriveLab/Vista",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "note contains TODO/待补充 marker"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2406-IRASim.md",
+      "title": "IRASim: A Fine-Grained World Model for Robot Manipulation",
+      "date_publish": "2024-06-20",
+      "venue": "ICCV 2025",
+      "tags": [
+        "world-model",
+        "manipulation",
+        "diffusion-policy"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2406.14540",
+      "website": "https://gen-irasim.github.io/",
+      "github": "https://github.com/bytedance/IRASim",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2406-OpenVLA.md",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "date_publish": "2024-06-13",
+      "venue": "CoRL 2024",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2406.09246",
+      "website": "https://openvla.github.io/",
+      "github": "https://github.com/openvla/openvla",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2406-RoboMamba.md",
+      "title": "RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation",
+      "date_publish": "2024-06-06",
+      "venue": "NeurIPS 2024",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2406.04339",
+      "website": "https://sites.google.com/view/robomamba-web",
+      "github": "https://github.com/lmzpai/roboMamba",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2407-ECoT.md",
+      "title": "Robotic Control via Embodied Chain-of-Thought Reasoning",
+      "date_publish": "2024-07-11",
+      "venue": "CoRL 2024",
+      "tags": [
+        "VLA",
+        "embodied-reasoning",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2407.08693",
+      "website": "https://embodied-cot.github.io/",
+      "github": "https://github.com/MichalZawalski/embodied-CoT",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2407-VLNFoundationSurvey.md",
+      "title": "Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models",
+      "date_publish": "2024-07-09",
+      "venue": "TMLR 2024",
+      "tags": [
+        "VLN",
+        "navigation",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2407.07035",
+      "website": [],
+      "github": "https://github.com/zhangyuejoslin/VLN-Survey-with-Foundation-Models",
+      "date_added": "2026-04-23",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2408-GameNGen.md",
+      "title": "Diffusion Models Are Real-Time Game Engines",
+      "date_publish": "2024-08-27",
+      "venue": "ICLR 2025",
+      "tags": [
+        "world-model",
+        "video-understanding"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2408.14837",
+      "website": "https://gamengen.github.io/",
+      "github": "https://github.com/GameNGen/GameNGen.github.io",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2408-OmniParser.md",
+      "title": "OmniParser for Pure Vision Based GUI Agent",
+      "date_publish": "2024-08-01",
+      "venue": "arXiv",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2408.00203",
+      "website": "https://microsoft.github.io/OmniParser/",
+      "github": "https://github.com/microsoft/OmniParser",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2409-TinyVLA.md",
+      "title": "TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation",
+      "date_publish": "2024-09-19",
+      "venue": "IEEE RA-L 2025",
+      "tags": [
+        "VLA",
+        "diffusion-policy",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2409.12514",
+      "website": "https://tiny-vla.github.io/",
+      "github": "https://github.com/liyaxuanliyaxuan/TinyVLA",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2409-WindowsAgentArena.md",
+      "title": "WindowsAgentArena: Evaluating Multi-Modal OS Agents at Scale",
+      "date_publish": "2024-09-13",
+      "venue": "arXiv",
+      "tags": [
+        "computer-use",
+        "gui-agent"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2409.08264",
+      "website": "https://microsoft.github.io/WindowsAgentArena/",
+      "github": "https://github.com/microsoft/WindowsAgentArena",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2410-BUMBLE.md",
+      "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
+      "date_publish": "2024-10-08",
+      "venue": "ICRA 2025",
+      "tags": [
+        "mobile-manipulation",
+        "embodied-reasoning",
+        "task-planning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2410.06237",
+      "website": "https://robin-lab.cs.utexas.edu/BUMBLE/",
+      "github": "https://github.com/UT-Austin-RobIn/BUMBLE",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2410-DovSG.md",
+      "title": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation",
+      "date_publish": "2024-10-16",
+      "venue": "RA-L 2025",
+      "tags": [
+        "mobile-manipulation",
+        "scene-understanding",
+        "semantic-map",
+        "task-planning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2410.11989",
+      "website": "https://bjhyzj.github.io/dovsg-web/",
+      "github": "https://github.com/BJHYZJ/DovSG",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2410-LAPA.md",
+      "title": "LAPA: Latent Action Pretraining from Videos",
+      "date_publish": "2024-10-15",
+      "venue": "ICLR 2025",
+      "tags": [
+        "VLA",
+        "world-model",
+        "imitation-learning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2410.11758",
+      "website": "https://latentactionpretraining.github.io/",
+      "github": "https://github.com/LatentActionPretraining/LAPA",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2410-OSAtlas.md",
+      "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+      "date_publish": "2024-10-30",
+      "venue": "ICLR 2025",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2410.23218",
+      "website": "https://osatlas.github.io/",
+      "github": "https://github.com/OS-Copilot/OS-Atlas",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2410-Pi0.md",
+      "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+      "date_publish": "2024-10",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "flow-matching",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2410.24164",
+      "website": "https://www.pi.website/blog/pi0",
+      "github": "https://github.com/Physical-Intelligence/openpi",
+      "date_added": "2026-04-15",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2411-GUIAgentSurvey.md",
+      "title": "Large Language Model-Brained GUI Agents: A Survey",
+      "date_publish": "2025-05-02",
+      "venue": "arXiv preprint (v8)",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2411.18279",
+      "website": "https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/",
+      "github": "https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2411-RewardHacking.md",
+      "title": "Reward Hacking in Reinforcement Learning",
+      "date_publish": "2024-11-28",
+      "venue": "Blog (Lil'Log)",
+      "tags": [
+        "agentic-RL",
+        "RL",
+        "LLM"
+      ],
+      "rating": 3,
+      "paper": [],
+      "website": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: paper",
+          "missing source URL: paper",
+          "template comment marker '%%' leaked into note body"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2411-ShowUI.md",
+      "title": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+      "date_publish": "2024-11-26",
+      "venue": "CVPR 2025",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2411.17465",
+      "website": [],
+      "github": "https://github.com/showlab/ShowUI",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2411-WorldModelSurvey.md",
+      "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+      "date_publish": "2024-11",
+      "venue": "ACM Computing Surveys",
+      "tags": [
+        "world-model",
+        "VLA",
+        "RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2411.14499",
+      "website": [],
+      "github": "https://github.com/tsinghua-fib-lab/World-Model",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2412-AgentTrek.md",
+      "title": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
+      "date_publish": "2024-12-12",
+      "venue": "ICLR 2025 Spotlight",
+      "tags": [
+        "web-agent",
+        "gui-agent",
+        "VLM"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2412.09605",
+      "website": "https://agenttrek.github.io/",
+      "github": "https://github.com/xlang-ai/AgentTrek",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2412-LHVLN.md",
+      "title": "Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method",
+      "date_publish": "2024-12-12",
+      "venue": "CVPR 2025",
+      "tags": [
+        "VLN",
+        "navigation",
+        "task-planning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2412.09082",
+      "website": "https://hcplab-sysu.github.io/LH-VLN/",
+      "github": "https://github.com/HCPLab-SYSU/LH-VLN",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2412-NaVILA.md",
+      "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
+      "date_publish": "2024-12",
+      "venue": "RSS 2025",
+      "tags": [
+        "VLN",
+        "VLA",
+        "navigation",
+        "legged"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2412.04453",
+      "website": "https://navila-bot.github.io/",
+      "github": "https://github.com/AnjieCheng/NaVILA",
+      "date_added": "2026-03-24",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2412-OSGenesis.md",
+      "title": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis",
+      "date_publish": "2024-12-27",
+      "venue": "ACL 2025",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2412.19723",
+      "website": "https://qiushisun.github.io/OS-Genesis-Home/",
+      "github": "https://github.com/OS-Copilot/OS-Genesis",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2412-RoboVLMs.md",
+      "title": "What Matters in Building Vision-Language-Action Models for Generalist Robots",
+      "date_publish": "2024-12",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2412.14058",
+      "website": "https://robovlms.github.io",
+      "github": "https://github.com/Robot-VLAs/RoboVLMs",
+      "date_added": "2026-03-27",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2501-ACUSurvey.md",
+      "title": "A Comprehensive Survey of Agents for Computer Use: Foundations, Challenges, and Future Directions",
+      "date_publish": "2026-02-24",
+      "venue": "JAIR vol. 85, 2026",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "web-agent"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2501.16150",
+      "website": "https://sagerpascal.github.io/agents-for-computer-use/",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2501-Cosmos.md",
+      "title": "Cosmos World Foundation Model Platform for Physical AI",
+      "date_publish": "2025-01-07",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "VLA",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2501.03575",
+      "website": "https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai",
+      "github": "https://github.com/nvidia-cosmos/cosmos-predict1",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2501-RoboticWorldModel.md",
+      "title": "Robotic World Model: A Neural Network Simulator for Robust Policy Optimization in Robotics",
+      "date_publish": "2025-01-17",
+      "venue": "NeurIPS 2025 Embodied World Models Workshop (Outstanding Paper Award)",
+      "tags": [
+        "world-model",
+        "RL",
+        "legged"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2501.10100",
+      "website": "https://sites.google.com/view/roboticworldmodel",
+      "github": "https://github.com/leggedrobotics/robotic_world_model",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2501-UITARS.md",
+      "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+      "date_publish": "2025-01-21",
+      "venue": "arXiv",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "VLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2501.12326",
+      "website": [],
+      "github": "https://github.com/bytedance/UI-TARS",
+      "date_added": "2026-04-02",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2502-EmbodiedBench.md",
+      "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+      "date_publish": "2025-02-13",
+      "venue": "ICML 2025 (Oral)",
+      "tags": [
+        "embodied-reasoning",
+        "VLM",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2502.09560",
+      "website": "https://embodiedbench.github.io",
+      "github": "https://github.com/EmbodiedBench/EmbodiedBench",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2502-HAMSTER.md",
+      "title": "HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation",
+      "date_publish": "2025-02-08",
+      "venue": "ICLR 2025",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2502.05485",
+      "website": "https://hamster-robot.github.io/",
+      "github": "https://github.com/liyi14/HAMSTER_beta",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2502-HiRobot.md",
+      "title": "Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models",
+      "date_publish": "2025-02",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "instruction-following",
+        "task-planning",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2502.19417",
+      "website": "https://www.pi.website/research/hirobot",
+      "github": [],
+      "date_added": "2026-03-24",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2502-MapNav.md",
+      "title": "MapNav: A Novel Memory Representation via Annotated Semantic Maps for VLM-based Vision-and-Language Navigation",
+      "date_publish": "2025-02-19",
+      "venue": "ACL 2025",
+      "tags": [
+        "VLN",
+        "semantic-map",
+        "spatial-memory"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2502.13451",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2502-OpenVLA-OFT.md",
+      "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+      "date_publish": "2025-02-27",
+      "venue": "RSS 2025",
+      "tags": [
+        "VLA",
+        "imitation-learning",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2502.19645",
+      "website": "https://openvla-oft.github.io/",
+      "github": "https://github.com/moojink/openvla-oft",
+      "date_added": "2026-03-27",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2502-RoboBrain.md",
+      "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete",
+      "date_publish": "2025-02-28",
+      "venue": "CVPR 2025",
+      "tags": [
+        "embodied-reasoning",
+        "manipulation",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2502.21257",
+      "website": "https://superrobobrain.github.io/",
+      "github": "https://github.com/FlagOpen/RoboBrain",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2502-VLNav.md",
+      "title": "VL-Nav: A Neuro-Symbolic Approach for Reasoning-based Vision-Language Navigation",
+      "date_publish": "2025-02-02",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "navigation",
+        "task-planning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2502.00931",
+      "website": "https://sairlab.org/vlnav/",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2503-CosmosReason1.md",
+      "title": "Cosmos-Reason1: From Physical Common Sense To Embodied Reasoning",
+      "date_publish": "2025-03",
+      "venue": "arXiv",
+      "tags": [
+        "embodied-reasoning",
+        "VLM",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2503.15558",
+      "website": "https://research.nvidia.com/labs/cosmos-lab/cosmos-reason1/",
+      "github": "https://github.com/nvidia-cosmos/cosmos-reason1",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2503-GR00TN1.md",
+      "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+      "date_publish": "2025-03-18",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2503.14734",
+      "website": "https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots",
+      "github": "https://github.com/NVIDIA/Isaac-GR00T",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2503-GeminiRobotics.md",
+      "title": "Gemini Robotics: Bringing AI into the Physical World",
+      "date_publish": "2025-03-25",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2503.20020",
+      "website": "https://deepmind.google/models/gemini-robotics/",
+      "github": "https://github.com/google-deepmind/gemini-robotics-sdk",
+      "date_added": "2026-03-30",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2503-HybridVLA.md",
+      "title": "HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model",
+      "date_publish": "2025-03-13",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "diffusion-policy",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2503.10631",
+      "website": "https://hybrid-vla.github.io/",
+      "github": "https://github.com/PKU-HMI-Lab/Hybrid-VLA",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2503-MoManipVLA.md",
+      "title": "MoManipVLA: Transferring Vision-language-action Models for General Mobile Manipulation",
+      "date_publish": "2025-03-17",
+      "venue": "CVPR 2025",
+      "tags": [
+        "mobile-manipulation",
+        "VLA",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2503.13446",
+      "website": "https://gary3410.github.io/momanipVLA/",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2503-VGGT.md",
+      "title": "VGGT: Visual Geometry Grounded Transformer",
+      "date_publish": "2025-03-14",
+      "venue": "CVPR 2025 (Best Paper Award)",
+      "tags": [
+        "3D-representation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2503.11651",
+      "website": "https://vgg-t.github.io/",
+      "github": "https://github.com/facebookresearch/vggt",
+      "date_added": "2026-04-23",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-AgentS2.md",
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "date_publish": "2025-04-01",
+      "venue": "COLM 2025",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2504.00906",
+      "website": "https://www.simular.ai/articles/agent-s2",
+      "github": "https://github.com/simular-ai/Agent-S",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-EmbodiedR.md",
+      "title": "Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning",
+      "date_publish": "2025-04-17",
+      "venue": "arXiv",
+      "tags": [
+        "spatial-reasoning",
+        "embodied-reasoning",
+        "video-LLM",
+        "agentic-RL"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2504.12680",
+      "website": "https://embodiedcity.github.io/Embodied-R/",
+      "github": "https://github.com/EmbodiedCity/Embodied-R.code",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-Pi05.md",
+      "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+      "date_publish": "2025-04",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "mobile-manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2504.16054",
+      "website": "https://pi.website/blog/pi05",
+      "github": "https://github.com/Physical-Intelligence/openpi",
+      "date_added": "2026-04-19",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-ScreenSpotPro.md",
+      "title": "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use",
+      "date_publish": "2025-04-04",
+      "venue": "Workshop on Reasoning and Planning for Large Language Models (R&P-LLM @ ICLR 2025)",
+      "tags": [
+        "gui-agent",
+        "computer-use"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2504.07981",
+      "website": "https://gui-agent.github.io/grounding-leaderboard/",
+      "github": "https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-TongUI.md",
+      "title": "TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents",
+      "date_publish": "2025-04-17",
+      "venue": "AAAI 2026",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "VLM"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2504.12679",
+      "website": "https://tongui-agent.github.io/",
+      "github": "https://github.com/TongUI-agent/TongUI-agent",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2504-UWM.md",
+      "title": "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
+      "date_publish": "2025-04-03",
+      "venue": "RSS 2025",
+      "tags": [
+        "world-model",
+        "diffusion-policy",
+        "manipulation",
+        "imitation-learning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2504.02792",
+      "website": "https://weirdlabuw.github.io/uwm/",
+      "github": "https://github.com/WEIRDLabUW/unified-world-model",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2505-DreamGen.md",
+      "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+      "date_publish": "2025-05-19",
+      "venue": "arXiv preprint",
+      "tags": [
+        "world-model",
+        "VLA",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2505.12705",
+      "website": "https://research.nvidia.com/labs/gear/dreamgen",
+      "github": "https://github.com/NVIDIA/GR00T-Dreams",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2506-EmbodiedWebAgent.md",
+      "title": "Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence",
+      "date_publish": "2025-06",
+      "venue": "NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)",
+      "tags": [
+        "web-agent",
+        "navigation",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2506.15677",
+      "website": "https://embodied-web-agent.github.io/",
+      "github": "https://github.com/Embodied-Web-Agent/Embodied-Web-Agent",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2506-RobotR1.md",
+      "title": "Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics",
+      "date_publish": "2025-05-29",
+      "venue": "NeurIPS 2025",
+      "tags": [
+        "embodied-reasoning",
+        "agentic-RL",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2506.00070",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2506-SmolVLA.md",
+      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+      "date_publish": "2025-06-02",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "flow-matching",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2506.01844",
+      "website": "https://huggingface.co/blog/smolvla",
+      "github": "https://github.com/huggingface/lerobot",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2506-VJEPA2.md",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "date_publish": "2025-06",
+      "venue": "arXiv 2025",
+      "tags": [
+        "world-model",
+        "video-understanding",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2506.09985",
+      "website": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+      "github": "https://github.com/facebookresearch/vjepa2",
+      "date_added": "2026-03-30",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2506-VLNR1.md",
+      "title": "VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning",
+      "date_publish": "2025-06-20",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "agentic-RL",
+        "video-LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2506.17221",
+      "website": "https://vlnr1.github.io/",
+      "github": "https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2506-VeBrain.md",
+      "title": "Visual Embodied Brain: Let Multimodal Large Language Models See, Think, and Control in Spaces",
+      "date_publish": "2025-06",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "spatial-reasoning",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2506.00123",
+      "website": "https://internvl.github.io/blog/2025-05-26-VeBrain/",
+      "github": "https://github.com/OpenGVLab/VeBrain",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2507-MTU3D.md",
+      "title": "Move to Understand a 3D Scene: Bridging Visual Grounding and Exploration for Efficient and Versatile Embodied Navigation",
+      "date_publish": "2025-07",
+      "venue": "ICCV 2025",
+      "tags": [
+        "navigation",
+        "scene-understanding",
+        "spatial-memory"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2507.04047",
+      "website": "https://mtu3d.github.io/",
+      "github": "https://github.com/MTU3D/MTU3D",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2507-RoboBrain2.md",
+      "title": "RoboBrain 2.0 Technical Report",
+      "date_publish": "2025-07",
+      "venue": "Technical Report",
+      "tags": [
+        "spatial-reasoning",
+        "VLM",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2507.02029",
+      "website": "https://superrobobrain.github.io/",
+      "github": "https://github.com/FlagOpen/RoboBrain2.5",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2507-StreamVLN.md",
+      "title": "StreamVLN: Streaming Vision-and-Language Navigation via SlowFast Context Modeling",
+      "date_publish": "2025-07-07",
+      "venue": "ICRA 2026",
+      "tags": [
+        "VLN",
+        "video-LLM",
+        "VLA",
+        "navigation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2507.05240",
+      "website": "https://streamvln.github.io/",
+      "github": "https://github.com/InternRobotics/StreamVLN",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2507-VLATokenizationSurvey.md",
+      "title": "A Survey on Vision-Language-Action Models: An Action Tokenization Perspective",
+      "date_publish": "2025-07-02",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "embodied-reasoning",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2507.01925",
+      "website": [],
+      "github": "https://github.com/Psi-Robot/Awesome-VLA-Papers",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2507-VLNPE.md",
+      "title": "Rethinking the Embodied Gap in Vision-and-Language Navigation: A Holistic Study of Physical and Visual Disparities",
+      "date_publish": "2025-07-17",
+      "venue": "ICCV 2025",
+      "tags": [
+        "VLN",
+        "cross-embodiment",
+        "navigation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2507.13019",
+      "website": "https://crystalsixone.github.io/vln_pe.github.io/",
+      "github": "https://github.com/InternRobotics/InternNav",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2508-AgentLightning.md",
+      "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+      "date_publish": "2025-08-05",
+      "venue": "arXiv",
+      "tags": [
+        "agentic-RL",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2508.03680",
+      "website": "https://www.microsoft.com/en-us/research/blog/agent-lightning-adding-reinforcement-learning-to-ai-agents-without-code-rewrites/",
+      "github": "https://github.com/microsoft/agent-lightning",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2508-ComputerRL.md",
+      "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+      "date_publish": "2025-08-19",
+      "venue": "arXiv",
+      "tags": [
+        "computer-use",
+        "agentic-RL",
+        "gui-agent"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2508.14040",
+      "website": "https://autoglm.zhipuai.cn/",
+      "github": "https://github.com/THUDM/ComputerRL",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2508-EmbodiedR1.md",
+      "title": "Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation",
+      "date_publish": "2025-08-19",
+      "venue": "ICLR 2026",
+      "tags": [
+        "embodied-reasoning",
+        "VLA",
+        "agentic-RL",
+        "manipulation",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2508.13998",
+      "website": "https://embodied-r1.github.io/",
+      "github": "https://github.com/pickxiguapi/Embodied-R1",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2508-OSAgentsSurvey.md",
+      "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+      "date_publish": "2025-08-06",
+      "venue": "ACL 2025 (Oral, 9-page version) / arXiv (full)",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "web-agent"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2508.04482",
+      "website": "https://os-agent-survey.github.io/",
+      "github": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2508-OpenCUA.md",
+      "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "date_publish": "2025-08-12",
+      "venue": "NeurIPS 2025 Spotlight",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "VLM",
+        "imitation-learning"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2508.09123",
+      "website": "https://opencua.xlang.ai",
+      "github": "https://github.com/xlang-ai/OpenCUA",
+      "date_added": "2026-04-02",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2509-AnywhereVLA.md",
+      "title": "AnywhereVLA: Language-Conditioned Exploration and Mobile Manipulation",
+      "date_publish": "2025-09-25",
+      "venue": "arXiv (submitted to ICRA 2026)",
+      "tags": [
+        "mobile-manipulation",
+        "VLA",
+        "SLAM"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2509.21006",
+      "website": "https://selfai-research.github.io/AnywhereVLA/",
+      "github": "https://github.com/SelfAI-research/AnywhereVLA",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2509-DARTGUI.md",
+      "title": "Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation",
+      "date_publish": "2025-09-28",
+      "venue": "arXiv",
+      "tags": [
+        "agentic-RL",
+        "computer-use",
+        "gui-agent"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2509.23866",
+      "website": "https://computer-use-agents.github.io/dart-gui",
+      "github": "https://github.com/computer-use-agents/dart-gui",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing Summary rating line"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2509-FoMER.md",
+      "title": "How Good are Foundation Models in Step-by-Step Embodied Reasoning?",
+      "date_publish": "2025-09-18",
+      "venue": "arXiv",
+      "tags": [
+        "embodied-reasoning",
+        "VLM",
+        "spatial-reasoning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2509.15293",
+      "website": "https://mbzuai-oryx.github.io/FoMER-Bench/",
+      "github": "https://github.com/mbzuai-oryx/FoMER-Bench",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2509-NavFoM.md",
+      "title": "NavFoM: Embodied Navigation Foundation Model",
+      "date_publish": "2025-09-15",
+      "venue": "arXiv 2509.12129",
+      "tags": [
+        "VLN",
+        "navigation",
+        "cross-embodiment",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2509.12129",
+      "website": "https://pku-epic.github.io/NavFoM-Web/",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2509-OmniEVA.md",
+      "title": "OmniEVA: Embodied Versatile PlAnner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning",
+      "date_publish": "2025-09",
+      "venue": [],
+      "tags": [
+        "embodied-reasoning",
+        "spatial-reasoning",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2509.09332",
+      "website": "https://omnieva.github.io/",
+      "github": [],
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: venue"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2509-PureVLA.md",
+      "title": "Pure Vision-Language-Action (VLA) Models: A Comprehensive Survey",
+      "date_publish": "2025-09-23",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2509.19012",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2509-Robix.md",
+      "title": "Robix: A Unified Model for Robot Interaction, Reasoning and Planning",
+      "date_publish": "2025-09",
+      "venue": "arXiv",
+      "tags": [
+        "embodied-reasoning",
+        "task-planning",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2509.01106",
+      "website": "https://robix-seed.github.io/robix/",
+      "github": [],
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2509-UITARS2.md",
+      "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+      "date_publish": "2025-09-02",
+      "venue": "arXiv",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2509.02544",
+      "website": [],
+      "github": "https://github.com/bytedance/UI-TARS",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2510-EfficientVLASurvey.md",
+      "title": "A Survey on Efficient Vision-Language-Action Models",
+      "date_publish": "2025-10-27",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2510.24795",
+      "website": "https://evla-survey.github.io/",
+      "github": "https://github.com/YuZhaoshu/Efficient-VLAs-Survey",
+      "date_added": "2026-04-22",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2510-EmbodiedBrain.md",
+      "title": "EmbodiedBrain: Expanding Performance Boundaries of Task Planning for Embodied Intelligence",
+      "date_publish": "2025-10-23",
+      "venue": "arXiv",
+      "tags": [
+        "embodied-reasoning",
+        "task-planning",
+        "agentic-RL"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2510.20578",
+      "website": "https://zterobot.github.io/EmbodiedBrain.github.io/",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2510-GeminiRobotics15.md",
+      "title": "Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion Transfer",
+      "date_publish": "2025-10",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "cross-embodiment",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2510.03342",
+      "website": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+      "github": "https://github.com/google-deepmind/gemini-robotics-sdk",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2510-NaviTrace.md",
+      "title": "NaviTrace: Evaluating Embodied Navigation of Vision-Language Models",
+      "date_publish": "2025-10-30",
+      "venue": "arXiv preprint",
+      "tags": [
+        "navigation",
+        "VLM",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2510.26909",
+      "website": "https://leggedrobotics.github.io/navitrace_webpage/",
+      "github": "https://github.com/leggedrobotics/navitrace_evaluation",
+      "date_added": "2026-04-23",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2510-RobotLearningTutorial.md",
+      "title": "Robot Learning: A Tutorial",
+      "date_publish": "2025-10-14",
+      "venue": "arXiv (Tutorial)",
+      "tags": [
+        "VLA",
+        "imitation-learning",
+        "RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2510.12403",
+      "website": "https://huggingface.co/spaces/lerobot/robot-learning-tutorial",
+      "github": "https://github.com/huggingface/lerobot",
+      "date_added": "2026-05-06",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2510-ScalingAgents.md",
+      "title": "The Unreasonable Effectiveness of Scaling Agents for Computer Use",
+      "date_publish": "2025-10-02",
+      "venue": "arXiv preprint (ICML submission)",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2510.02250",
+      "website": [],
+      "github": "https://github.com/simular-ai/Agent-S",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2510-VLASER.md",
+      "title": "Vlaser: Vision-Language-Action Model with Synergistic Embodied Reasoning",
+      "date_publish": "2025-10",
+      "venue": "ICLR 2026",
+      "tags": [
+        "VLA",
+        "embodied-reasoning",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2510.11027",
+      "website": "https://internvl.github.io/blog/2025-10-11-Vlaser/",
+      "github": "https://github.com/OpenGVLab/Vlaser",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2510-XVLA.md",
+      "title": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+      "date_publish": "2025-10-11",
+      "venue": "ICLR 2026",
+      "tags": [
+        "VLA",
+        "cross-embodiment",
+        "flow-matching"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2510.10274",
+      "website": "https://thu-air-dream.github.io/X-VLA/",
+      "github": "https://github.com/2toinf/X-VLA",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2511-EchoVLA.md",
+      "title": "EchoVLA: Synergistic Declarative Memory for VLA-Driven Mobile Manipulation",
+      "date_publish": "2025-11-22",
+      "venue": "arXiv preprint",
+      "tags": [
+        "mobile-manipulation",
+        "VLA",
+        "spatial-memory"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2511.18112",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2511-GEN0.md",
+      "title": "GEN-0: Embodied Foundation Models That Scale with Physical Interaction",
+      "date_publish": "2025-11-04",
+      "venue": "Generalist AI Blog",
+      "tags": [
+        "VLA",
+        "cross-embodiment",
+        "manipulation"
+      ],
+      "rating": 3,
+      "paper": [],
+      "website": "https://generalistai.com/blog/nov-04-2025-GEN-0",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: paper",
+          "missing source URL: paper"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2511-GroundCUA.md",
+      "title": "Grounding Computer Use Agents on Human Demonstrations",
+      "date_publish": "2025-11-10",
+      "venue": "arXiv 2025",
+      "tags": [
+        "gui-agent",
+        "computer-use",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2511.07332",
+      "website": "https://groundcua.github.io/",
+      "github": "https://github.com/ServiceNow/GroundCUA",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2511-MiMoEmbodied.md",
+      "title": "MiMo-Embodied: X-Embodied Foundation Model Technical Report",
+      "date_publish": "2025-11-20",
+      "venue": "arXiv 2511.16518",
+      "tags": [
+        "VLM",
+        "embodied-reasoning",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2511.16518",
+      "website": [],
+      "github": "https://github.com/XiaomiMiMo/MiMo-Embodied",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2511-PelicanVL.md",
+      "title": "Pelican-VL 1.0: A Foundation Brain Model for Embodied Intelligence",
+      "date_publish": "2025-11",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "spatial-reasoning",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2511.00108",
+      "website": "https://pelican-vl.github.io/",
+      "github": "https://github.com/Open-X-Humanoid/pelican-vl",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2511-PiStar06.md",
+      "title": "π*₀.₆: a VLA That Learns From Experience",
+      "date_publish": "2025-11",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "RL",
+        "manipulation",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2511.14759",
+      "website": "https://www.pi.website/blog/pistar06",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2512-ETPR1.md",
+      "title": "ETP-R1: Evolving Topological Planning with Reinforcement Fine-tuning for Vision-Language Navigation in Continuous Environments",
+      "date_publish": "2025-12-24",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLN",
+        "navigation",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.20940",
+      "website": [],
+      "github": "https://github.com/Cepillar/ETP-R1",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2512-EfficientVLN.md",
+      "title": "Efficient-VLN: A Training-Efficient Vision-Language Navigation Model",
+      "date_publish": "2025-12-12",
+      "venue": "arXiv 2512.10310",
+      "tags": [
+        "VLN",
+        "navigation",
+        "video-LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.10310",
+      "website": "https://lavi-lab.github.io/Efficient-VLN",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2512-GenieReasoner.md",
+      "title": "Unified Embodied VLM Reasoning with Robotic Action via Autoregressive Discretized Pre-training",
+      "date_publish": "2025-12",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "embodied-reasoning",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.24125",
+      "website": "https://geniereasoner.github.io/GenieReasoner/",
+      "github": [],
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2512-Lumo1.md",
+      "title": "Mind to Hand: Purposeful Robotic Control via Embodied Reasoning",
+      "date_publish": "2025-12-09",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "embodied-reasoning",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.08580",
+      "website": "https://www.astribot.com/research/Lumo1",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2512-Motus.md",
+      "title": "Motus: A Unified Latent Action World Model",
+      "date_publish": "2025-12-15",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "world-model",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.13030",
+      "website": "https://motus-robotics.github.io/motus",
+      "github": "https://github.com/thu-ml/Motus",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2512-NLAC.md",
+      "title": "Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space",
+      "date_publish": "2025-12-04",
+      "venue": "arXiv (also submitted to ICML)",
+      "tags": [
+        "agentic-RL",
+        "LLM",
+        "RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.04601",
+      "website": "https://jxihong.github.io/nlac_website/",
+      "github": "https://github.com/jxihong/nlac",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2512-VLNVerse.md",
+      "title": "VLNVerse: A Benchmark for Vision-Language Navigation with Versatile, Embodied, Realistic Simulation and Evaluation",
+      "date_publish": "2025-12-22",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "navigation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.19021",
+      "website": "https://sihaoevery.github.io/vlnverse/",
+      "github": "https://github.com/william13077/IAmGoodNavigator",
+      "date_added": "2026-04-23",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "template comment marker '%%' leaked into note body"
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2512-WholeBodyVLA.md",
+      "title": "WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control",
+      "date_publish": "2025-12-11",
+      "venue": "ICLR 2026",
+      "tags": [
+        "VLA",
+        "mobile-manipulation",
+        "legged"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2512.11047",
+      "website": "https://opendrivelab.com/WholeBodyVLA",
+      "github": "https://github.com/OpenDriveLab/WholebodyVLA",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2601-AirNav.md",
+      "title": "AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions",
+      "date_publish": "2026-01-07",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "agentic-RL",
+        "navigation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2601.03707",
+      "website": "https://littlelucifer1.github.io/AirNav/",
+      "github": "https://github.com/nopride03/AirNav",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2601-CycleVLA.md",
+      "title": "CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding",
+      "date_publish": "2026-01-05",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2601.02295",
+      "website": "https://dannymcy.github.io/cyclevla/",
+      "github": "https://github.com/dannymcy/cyclevla_code",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2601-Helix02.md",
+      "title": "Helix 02: A Unified Whole-Body Loco-Manipulation VLA",
+      "date_publish": "2026-01-27",
+      "venue": "Figure AI Blog",
+      "tags": [
+        "VLA",
+        "mobile-manipulation",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": [],
+      "website": "https://www.figure.ai/news/helix-02",
+      "github": [],
+      "date_added": "2026-05-11",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: paper",
+          "missing source URL: paper"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2601-RoboBrain25.md",
+      "title": "RoboBrain 2.5: Depth in Sight, Time in Mind",
+      "date_publish": "2026-01",
+      "venue": "arXiv preprint",
+      "tags": [
+        "spatial-reasoning",
+        "VLA",
+        "RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2601.14352",
+      "website": "https://superrobobrain.github.io/",
+      "github": "https://github.com/FlagOpen/RoboBrain2.5",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2601-SpatialNav.md",
+      "title": "SpatialNav: Leveraging Spatial Scene Graphs for Zero-Shot Vision-and-Language Navigation",
+      "date_publish": "2026-01-11",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "spatial-memory",
+        "scene-understanding"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2601.06806",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2601-Thinker.md",
+      "title": "Thinker: A vision-language foundation model for embodied intelligence",
+      "date_publish": "2026-01-29",
+      "venue": "arXiv (short report)",
+      "tags": [
+        "VLM",
+        "embodied-reasoning",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2601.21199",
+      "website": [],
+      "github": "https://github.com/UBTECH-Robot/Thinker",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2602-DM0.md",
+      "title": "DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI",
+      "date_publish": "2026-02",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "navigation",
+        "mobile-manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.14974",
+      "website": [],
+      "github": "https://github.com/Dexmal/dexbotic",
+      "date_added": "2026-03-30",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2602-DreamZero.md",
+      "title": "World Action Models are Zero-shot Policies",
+      "date_publish": "2026-02-17",
+      "venue": "arXiv preprint",
+      "tags": [
+        "world-model",
+        "VLA",
+        "manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2602.15922",
+      "website": "https://dreamzero0.github.io/",
+      "github": "https://github.com/dreamzero0/dreamzero",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-GTA.md",
+      "title": "One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation",
+      "date_publish": "2026-02-17",
+      "venue": "arXiv 2602.15400",
+      "tags": [
+        "VLN",
+        "navigation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.15400",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github",
+          "note contains TODO/待补充 marker"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2602-GigaBrain05M.md",
+      "title": "GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning",
+      "date_publish": "2026-02-12",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "world-model",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.12099",
+      "website": "https://gigabrain05m.github.io",
+      "github": "https://github.com/open-gigaai/giga-brain-0",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-KimiK25.md",
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "date_publish": "2026-02-02",
+      "venue": "arXiv 2602.02276",
+      "tags": [
+        "VLM",
+        "agentic-RL",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.02276",
+      "website": "https://www.kimi.com/blog/kimi-k2-5",
+      "github": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-LDA1B.md",
+      "title": "LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion",
+      "date_publish": "2026-02-12",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "world-model",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.12215",
+      "website": "https://pku-epic.github.io/LDA/",
+      "github": "https://github.com/PKU-EPIC/LDA",
+      "date_added": "2026-04-29",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-RoboInter.md",
+      "title": "RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation",
+      "date_publish": "2026-02",
+      "venue": "ICLR 2026",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.09973",
+      "website": "https://lihaohn.github.io/RoboInter.github.io/",
+      "github": "https://github.com/InternRobotics/RoboInter",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "note contains TODO/待补充 marker"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2602-RynnBrain.md",
+      "title": "RynnBrain: Open Embodied Foundation Models",
+      "date_publish": "2026-02",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "spatial-reasoning",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.14979",
+      "website": "https://alibaba-damo-academy.github.io/RynnBrain.github.io",
+      "github": "https://github.com/alibaba-damo-academy/RynnBrain",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-UniPlan.md",
+      "title": "UniPlan: Vision-Language Task Planning for Mobile Manipulation with Unified PDDL Formulation",
+      "date_publish": "2026-02-09",
+      "venue": "arXiv",
+      "tags": [
+        "task-planning",
+        "mobile-manipulation",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.08537",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2602-WorldVLALoop.md",
+      "title": "World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy",
+      "date_publish": "2026-02-09",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "VLA",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.06508",
+      "website": "https://showlab.github.io/World-VLA-Loop/",
+      "github": "https://github.com/showlab/World-VLA-Loop",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2602-XiaomiRobotics0.md",
+      "title": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+      "date_publish": "2026-02",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2602.12684",
+      "website": "https://xiaomi-robotics-0.github.io",
+      "github": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0",
+      "date_added": "2026-04-19",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-ACEBrain0.md",
+      "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+      "date_publish": "2026-03",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "cross-embodiment",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.03198",
+      "website": "https://ACE-Brain-Team.github.io/ACE-Brain-0/",
+      "github": "https://github.com/ACE-Brain-Team/ACE-Brain-0",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-DAMVLA.md",
+      "title": "DAM-VLA: A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
+      "date_publish": "2026-03-01",
+      "venue": "ICRA 2026",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "diffusion-policy"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2603.00926",
+      "website": "https://research.samsung.com/blog/DAM-VLA-A-Dynamic-Action-Model-Based-Vision-Language-Action-Framework-for-Robot-Manipulation",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2603-DyGeoVLN.md",
+      "title": "DyGeoVLN: Infusing Dynamic Geometry Foundation Model into Vision-Language Navigation",
+      "date_publish": "2026-03-22",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "3D-representation",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.21269",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-23",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2603-EvoScientist.md",
+      "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "date_publish": "2026-03-09",
+      "venue": "arXiv 2603.08127",
+      "tags": [
+        "auto-research",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.08127",
+      "website": "https://evoscientist.ai/",
+      "github": "https://github.com/EvoScientist/EvoScientist",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-HoliSpatial.md",
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "date_publish": "2026-03",
+      "venue": "arXiv",
+      "tags": [
+        "3D-representation",
+        "scene-understanding",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.07660",
+      "website": "https://visionary-laboratory.github.io/holi-spatial/",
+      "github": "https://github.com/Visionary-Laboratory/holi-spatial",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-MEM.md",
+      "title": "MEM: Multi-Scale Embodied Memory for Vision Language Action Models",
+      "date_publish": "2026-03",
+      "venue": [],
+      "tags": [
+        "VLA",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.03596v1",
+      "website": "https://pi.website/research/memory",
+      "github": [],
+      "date_added": "2026-04-15",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: venue"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2603-PROSPECT.md",
+      "title": "PROSPECT: Unified Streaming Vision-Language Navigation via Semantic–Spatial Fusion and Latent Predictive Representation",
+      "date_publish": "2026-03-04",
+      "venue": "arXiv",
+      "tags": [
+        "VLN",
+        "VLA",
+        "world-model",
+        "spatial-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.03739",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2603-PersonaVLM.md",
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "date_publish": "2026-03-20",
+      "venue": "CVPR 2026",
+      "tags": [
+        "VLM",
+        "agentic-RL",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.13074",
+      "website": "https://PersonaVLM.github.io",
+      "github": "https://github.com/MiG-NJU/PersonaVLM",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-RoboClaw.md",
+      "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
+      "date_publish": "2026-03-12",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "task-planning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.11558",
+      "website": "https://roboclaw-agibot.github.io/",
+      "github": "https://github.com/RoboClaw-Robotics/RoboClaw",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2603-SGVLA.md",
+      "title": "SG-VLA: Learning Spatially-Grounded Vision-Language-Action Models for Mobile Manipulation",
+      "date_publish": "2026-03-24",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "mobile-manipulation",
+        "imitation-learning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2603.22760",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-A1VLA.md",
+      "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "flow-matching",
+        "manipulation"
+      ],
+      "rating": 1,
+      "paper": "https://arxiv.org/abs/2604.05672",
+      "website": "http://www.ateam.xin/#/research/A1",
+      "github": "https://github.com/ATeam-Research/A1",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-AURA.md",
+      "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+      "date_publish": "2026-04-05",
+      "venue": "arXiv",
+      "tags": [
+        "video-LLM",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.04184",
+      "website": "https://aurateam2026.github.io/",
+      "github": "https://github.com/aurateam2026/AURA",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-BiCoord.md",
+      "title": "BiCoord: A Bimanual Manipulation Benchmark towards Long-Horizon Spatial-Temporal Coordination",
+      "date_publish": "2026-04-07",
+      "venue": "arXiv 2604.05831",
+      "tags": [
+        "manipulation",
+        "VLA",
+        "diffusion-policy"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05831",
+      "website": "https://buaa-colalab.github.io/BiCoord/",
+      "github": "https://github.com/buaa-colalab/BiCoord-Bench",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-ClawEval.md",
+      "title": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "computer-use",
+        "agentic-RL",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.06132",
+      "website": "https://claw-eval.github.io",
+      "github": "https://github.com/claw-eval/claw-eval",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-ClawGUI.md",
+      "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+      "date_publish": "2026-04-13",
+      "venue": "arXiv",
+      "tags": [
+        "gui-agent",
+        "agentic-RL",
+        "computer-use"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.11784",
+      "website": "https://zju-real.github.io/ClawGUI-Page/",
+      "github": "https://github.com/ZJU-REAL/ClawGUI",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-CoTDegradesSpatial.md",
+      "title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+      "date_publish": "2026-04",
+      "venue": "arXiv preprint",
+      "tags": [
+        "spatial-reasoning",
+        "VLM",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.16060",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-DAERT.md",
+      "title": "Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming",
+      "date_publish": "2026-04-07",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "agentic-RL",
+        "instruction-following"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05595",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-DeepSeekV4.md",
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "date_publish": "2026-04-22",
+      "venue": "Technical Report (HuggingFace)",
+      "tags": [
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+      "website": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "github": [],
+      "date_added": "2026-04-24",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-DoVLMsTrulyReason.md",
+      "title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "date_publish": "2026-04",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLM",
+        "LLM",
+        "embodied-reasoning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.16256",
+      "website": [],
+      "github": "https://github.com/xuyige/CrossMath",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-FastdVLM.md",
+      "title": "Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM",
+      "date_publish": "2026-04-08",
+      "venue": "arXiv",
+      "tags": [
+        "VLM",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.06832",
+      "website": "https://nvlabs.github.io/Fast-dLLM/fast_dvlm/",
+      "github": "https://github.com/NVlabs/Fast-dLLM",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-GEN1.md",
+      "title": "GEN-1: Scaling Embodied Foundation Models to Mastery",
+      "date_publish": "2026-04-02",
+      "venue": "Generalist AI Blog",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "imitation-learning"
+      ],
+      "rating": 2,
+      "paper": [],
+      "website": "https://generalistai.com/blog/apr-02-2026-GEN-1",
+      "github": [],
+      "date_added": "2026-04-19",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: paper",
+          "missing source URL: paper"
+        ],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-GeminiRoboticsER16.md",
+      "title": "Gemini Robotics ER 1.6: Enhanced Embodied Reasoning",
+      "date_publish": "2026-04-14",
+      "venue": "Google DeepMind Blog",
+      "tags": [
+        "embodied-reasoning",
+        "spatial-reasoning",
+        "scene-understanding"
+      ],
+      "rating": 2,
+      "paper": [],
+      "website": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "github": "https://github.com/google-deepmind/gemini-robotics-sdk",
+      "date_added": "2026-04-15",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "missing required frontmatter field: paper",
+          "missing source URL: paper"
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-GenWorldRenderer.md",
+      "title": "Generative World Renderer",
+      "date_publish": "2026-04-02",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.02329",
+      "website": "https://alaya-studio.github.io/renderer/",
+      "github": "https://github.com/ShandaAI/AlayaRenderer",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-HYEmbodied.md",
+      "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "VLM",
+        "spatial-reasoning",
+        "VLA"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.07430",
+      "website": [],
+      "github": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+      "date_added": "2026-04-16",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-HYWorld2.md",
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.14268",
+      "website": "https://3d-models.hunyuan.tencent.com/world/",
+      "github": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-KITE.md",
+      "title": "KITE: Keyframe-Indexed Tokenized Evidence for VLM-Based Robot Failure Analysis",
+      "date_publish": "2026-04-08",
+      "venue": "ICRA 2026",
+      "tags": [
+        "embodied-reasoning",
+        "manipulation",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.07034",
+      "website": "https://m80hz.github.io/kite/",
+      "github": "https://github.com/m80hz/kite",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-OpenSpatial.md",
+      "title": "OpenSpatial: A Principled Data Engine for Empowering Spatial Intelligence",
+      "date_publish": "2026-04-08",
+      "venue": "arXiv",
+      "tags": [
+        "spatial-reasoning",
+        "VLM",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.07296",
+      "website": [],
+      "github": "https://github.com/VINHYU/OpenSpatial",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-OpenWorldLib.md",
+      "title": "OpenWorldLib: A Unified Codebase and Definition of Advanced World Models",
+      "date_publish": "2026-04-06",
+      "venue": "arXiv",
+      "tags": [
+        "world-model",
+        "VLA",
+        "3D-representation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.04707",
+      "website": [],
+      "github": "https://github.com/OpenDCAI/OpenWorldLib",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-Pi07.md",
+      "title": "π0.7: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "date_publish": "2026-04",
+      "venue": "Tech Report (Physical Intelligence)",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "cross-embodiment"
+      ],
+      "rating": 3,
+      "paper": "https://www.pi.website/download/pi07.pdf",
+      "website": "https://www.pi.website/blog/pi07",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-RAGEN2.md",
+      "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "agentic-RL",
+        "RL",
+        "LLM"
+      ],
+      "rating": 3,
+      "paper": "https://arxiv.org/abs/2604.06268",
+      "website": "https://ragen-ai.github.io/v2/",
+      "github": "https://github.com/mll-lab-nu/RAGEN",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2604-ReV.md",
+      "title": "Referring-Aware Visuomotor Policy Learning for Closed-Loop Manipulation",
+      "date_publish": "2026-04-07",
+      "venue": "arXiv",
+      "tags": [
+        "diffusion-policy",
+        "manipulation",
+        "imitation-learning"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05544",
+      "website": "https://gaavama.github.io/ReV/",
+      "github": [],
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-Skill0.md",
+      "title": "Skill0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "date_publish": "2026-04-02",
+      "venue": "arXiv",
+      "tags": [
+        "agentic-RL",
+        "task-planning",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.02268",
+      "website": [],
+      "github": "https://github.com/ZJU-REAL/SkillZero",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-SkillClaw.md",
+      "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+      "date_publish": "2026-04-09",
+      "venue": "arXiv preprint (Work in Progress)",
+      "tags": [
+        "computer-use",
+        "task-planning",
+        "LLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.08377",
+      "website": [],
+      "github": "https://github.com/AMAP-ML/SkillClaw",
+      "date_added": "2026-04-21",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-SnapFlow.md",
+      "title": "SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation",
+      "date_publish": "2026-04-07",
+      "venue": "arXiv preprint",
+      "tags": [
+        "VLA",
+        "flow-matching",
+        "manipulation"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05656",
+      "website": [],
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: website",
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-SpatialEvo.md",
+      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+      "date_publish": "2026-04",
+      "venue": "arXiv",
+      "tags": [
+        "spatial-reasoning",
+        "agentic-RL",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.14144",
+      "website": [],
+      "github": "https://github.com/ZJU-REAL/SpatialEvo",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": false,
+        "errors": [
+          "template comment marker '%%' leaked into note body"
+        ],
+        "warnings": [
+          "missing optional source URL: website"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-VidGround.md",
+      "title": "Watch Before You Answer: Learning from Visually Grounded Post-Training",
+      "date_publish": "2026-04-06",
+      "venue": "arXiv",
+      "tags": [
+        "video-LLM",
+        "video-understanding",
+        "agentic-RL"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05117",
+      "website": "http://vidground.etuagi.com/",
+      "github": [],
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "missing optional source URL: github"
+        ]
+      }
+    },
+    {
+      "path": "Papers/2604-VideoMMEv2.md",
+      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+      "date_publish": "2026-04-06",
+      "venue": "arXiv preprint",
+      "tags": [
+        "video-understanding",
+        "video-LLM",
+        "VLM"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2604.05015",
+      "website": "https://video-mme-v2.netlify.app/",
+      "github": "https://github.com/MME-Benchmarks/Video-MME-v2",
+      "date_added": "2026-04-20",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "Papers/2605-MolmoAct2.md",
+      "title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+      "date_publish": "2026-05-04",
+      "venue": "arXiv",
+      "tags": [
+        "VLA",
+        "manipulation",
+        "flow-matching"
+      ],
+      "rating": 2,
+      "paper": "https://arxiv.org/abs/2605.02881",
+      "website": "https://allenai.org/blog/molmoact2",
+      "github": "https://github.com/allenai/molmoact2",
+      "date_added": "2026-05-11",
+      "audit": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "summary": {
+    "total": 182,
+    "ok": 173,
+    "with_errors": 9,
+    "warnings": 79
+  }
+}
