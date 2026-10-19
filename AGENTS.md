@@ -2,6 +2,17 @@
 
 本文件描述本工作区的 **Owner**，供所有 agent 共享参考——理解他是谁、研究什么、看重什么，以及这个 notebook 如何组织。各 agent 自身的身份与职责由各自的 instruction / 项目级 CLAUDE.md 定义，本文件不覆盖那些。
 
+## 工作区边界（先读）
+
+本仓库是研究技能与工具依赖，不是 Zerui 的个人笔记库。日常工作目录是 `/home/zrgong/projects/obsidian/`。即使从本子模块或兼容链接 `~/projects/MindFlow` 启动，也不要把这里的历史内容当作个人阅读记录。
+
+- 先读取父 vault 的 `AGENTS.md` 与 `00 Home.md`，遵循其目录和写入规则。
+- 查询“我们最近读了哪些论文”：查父 vault `Library/Papers/`、`Daily/` 的 Reading 记录及对应 Git 历史；不要查询本仓库 `Papers/` 或 `Workbench/registry/papers.json` 来回答个人阅读历史。
+- 新 digest 写到父 vault 的 `Library/Papers/`，阅读记录写到 `Daily/`。此处 `skills/`、`tools/`、`references/` 提供方法与实现，不决定最终笔记目录。
+- 本仓库保留的 `Papers/`、`Topics/`、`DomainMaps/` 等是上游历史参考，不是 Zerui 的经历或当前工作。不得自动导入父 vault，也不得为了改 Owner 重写作者署名。
+- 记录日期以笔记中的明确日期、Daily 和 Git 提交为证；文件名中的年月可能是论文月份，mtime 可能是检出时间，都不能单独代表阅读日期。已整理笔记也不自动证明本人已读完。
+- 若父 vault 不可访问，明确报告无法查到个人记录；不要以本仓库旧笔记代替。
+
 ## Owner
 
 Gong Zerui（Zerui），本工作区的所有者和重要决策的最终审批人。研究重点包括机器人学习、具身智能与世界模型。
@@ -71,7 +82,7 @@ Owner 警惕的失败模式：
 
 ## Directory Structure
 
-这是 Owner 的 notebook（知识库），记录他的所有知识，所有笔记是 Obsidian markdown 文件：
+以下是上游参考 notebook 的目录布局，不是 Zerui 的个人 vault 布局；个人笔记位置以本文件顶部及父 vault 契约为准：
 
 - `DomainMaps/` — 核心认知地图，每个 domain 一个文件，`_index.md` 为索引页
 - `Papers/` — 论文笔记（YYMM-ShortTitle.md）
